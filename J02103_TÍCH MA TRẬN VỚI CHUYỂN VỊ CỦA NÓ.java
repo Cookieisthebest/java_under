@@ -24,6 +24,7 @@ public class Try1{
                     b[j][i] = a[i][j];
                 }
             }
+            // bị thừa vòng for này nếu máy giới hạn bộ nhớ (1) 
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n; j++) {
                     c[i][j] = 0;
@@ -33,6 +34,7 @@ public class Try1{
             { 
                 for(int j = 0 ; j < n; j++)
                 {
+                    // thêm c[i][j] = 0 ở đây (1) 
                     for(int p = 0;  p <  m; p++)
                     {
                         c[i][j] += a[i][p] * b[p][j];
