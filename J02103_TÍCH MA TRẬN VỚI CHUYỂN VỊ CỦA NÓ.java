@@ -11,8 +11,11 @@ public class Try1{
             int m = sc.nextInt();
             int[][] a = new int[n+1][m+1];
             int[][] b = new int[n+1][m+1];
-            int[][] c = new int[n][n];//thử đề thành [100][100] là biết liền =)))
-            
+            int[][] c = new int[n][n];   //thử đề thành [100][100] 
+            //output khi dùng int[][] c = new int[100][100];
+    //5 11 0 0 .... 98 số 0
+    //25 5 0 0......98 số 0
+            //mà trong C thường nó sẽ ko bị như thế này khi in ra 
             for(int i = 0 ; i < n ;i++)
             {
                 for(int j = 0 ; j < m; j++)
@@ -38,7 +41,7 @@ public class Try1{
             }
             
             System.out.println("Test "+k+":");
-            for(int i = 0 ; i < c.length ;i++)
+            for(int i = 0 ; i < c.length ;i++)  //// cách in ra mảng 2 chiều - hay dùng trong khi xây dựng các lớp interface
             { 
                 for(int j = 0 ; j < c[0].length; j++)
                 {
