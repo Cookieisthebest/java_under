@@ -1,0 +1,52 @@
+package a_thno;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+SINHVIEN.in
+5
+B15DCKT150
+NGUYEN NGOC SON
+D15CQKT02-B
+sv3@stu.ptit.edu.vn
+B15DCKT199
+NguyeN   TrONg Tung
+D15CQKT02-B
+sv4@stu.ptit.edu.vn
+B15DCCN002
+hoang van nam
+D15CQKT01-B
+sv4@stu.ptit.edu.vn
+B14DCCN035
+hoang thu cuc
+D15CQKT01-B
+sv1@stu.ptit.edu.vn
+B15DCCN001
+ly quoc khanh
+D15CQKT03-B
+sv1@stu.ptit.edu.vn
+
+DN.in
+4
+VIETTEL
+TAP DOAN VIEN THONG QUAN DOI VIETTEL
+40
+FSOFT
+CONG TY TNHH PHAN MEM FPT - FPT SOFTWARE
+300
+VNPT
+TAP DOAN BUU CHINH VIEN THONG VIET NAM
+200
+SUN
+SUN*
+3
+
+THUCTAP.in
+5
+B15DCKT150 VIETTEL
+B15DCKT199 SUN
+B15DCCN002 SUN
+B14DCCN035 SUN
+B15DCCN001 SUN
+1
+SUN
